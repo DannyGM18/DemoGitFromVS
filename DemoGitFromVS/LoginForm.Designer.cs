@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.btmIniciar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,11 +67,21 @@
             this.txtContraseña.Size = new System.Drawing.Size(275, 20);
             this.txtContraseña.TabIndex = 3;
             // 
+            // btmIniciar
+            // 
+            this.btmIniciar.Location = new System.Drawing.Point(84, 161);
+            this.btmIniciar.Name = "btmIniciar";
+            this.btmIniciar.Size = new System.Drawing.Size(185, 23);
+            this.btmIniciar.TabIndex = 4;
+            this.btmIniciar.Text = "Iniciar Sesion";
+            this.btmIniciar.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 209);
+            this.Controls.Add(this.btmIniciar);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
@@ -88,5 +99,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Button btmIniciar;
     }
 }
